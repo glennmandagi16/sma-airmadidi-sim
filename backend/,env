@@ -1,0 +1,15 @@
+# Konfigurasi Database — SMA Airmadidi Backend
+# Salin file ini menjadi .env dan sesuaikan nilainya
+
+# ── MySQL ────────────────────────────────────────
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=root
+DB_PASS=
+DB_NAME=sma_airmadidi
+
+# ── Server ───────────────────────────────────────
+PORT=3001
+
+# ── Frontend URL (untuk CORS) ─────────────────────
+FRONTEND_URL=http://localhost:5173
